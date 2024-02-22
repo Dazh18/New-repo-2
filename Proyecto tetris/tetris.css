@@ -1,0 +1,84 @@
+
+div{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    place-items: flex;
+}
+.inicio{
+    place-self: center;
+    width: 200px;
+    border-radius: 4px;
+}
+.score-display{
+    border-radius: 4px;
+    background-color: aqua;
+    width: 200px;
+    color: rgb(201, 31, 31);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lines-display{
+    border-radius: 4px;
+    background-color: aqua;
+    width: 200px;
+    color: rgb(201, 31, 31);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mensaje{
+    border-radius: 4px;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    color: rgb(12, 8, 12);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+    position: relative;
+    place-self: center;
+    top: -150px;
+    left: 300px
+}
+.game{
+    position: relative;
+    place-self: center;
+    top: -450px;
+    left: -90px
+    
+}
+.grid{
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.previous-grid{
+    place-self: center;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.previous-shape{
+    position: relative;
+    top: -200px;
+    right: -65px;
+    height: 80px;
+    width: 80px;
+}
+.block{
+    background-color: blue;
+}
+.block2{
+    background-color: purple;
+}
+.block3{
+    background-color: green;
+}
